@@ -1,0 +1,20 @@
+{
+  "extends": ["next", "next/core-web-vitals"],
+  "plugins": ["sort-imports-es6-autofix", "sort-keys-fix"],
+  "rules": {
+    "react/display-name": "off",
+    "no-unused-vars": "error",
+    "no-console": "error",
+    "no-duplicate-imports": "error",
+    "no-duplicate-case": "error",
+    "sort-keys-fix/sort-keys-fix": "warn",
+    "sort-imports-es6-autofix/sort-imports-es6": [
+      2,
+      {
+        "ignoreCase": false,
+        "ignoreMemberSort": false,
+        "memberSyntaxSortOrder": ["none", "all", "multiple", "single"]
+      }
+    ]
+  }
+}
